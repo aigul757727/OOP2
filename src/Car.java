@@ -4,7 +4,6 @@ public class Car extends WheeledTransport implements Enginable {
     @Override
     public void updateTyre (){
         System.out.println("Меняем покрышку");}
-
     @Override
     public void checkEngine() {
         System.out.println("Проверяем двигатель машины");
