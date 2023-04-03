@@ -15,7 +15,6 @@ public class ServiceStation {
         truck.checkTrailer();
 
     }
-
     public void checkWheelable(WheeledTransport WheeledTransport) {
         System.out.println("Обслуживаем " + WheeledTransport.getModelName());
         for (int i = 0; i < WheeledTransport.getWheelsCount(); i++) {
