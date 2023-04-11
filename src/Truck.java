@@ -11,3 +11,4 @@ public class Truck extends WheeledTransport implements Enginable{
     public void checkTrailer () {System.out.println("Проверяем прицеп");
     }
 }
+
