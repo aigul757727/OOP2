@@ -13,7 +13,6 @@ public class ServiceStation {
         checkWheelable(truck);
         truck.checkEngine();
         truck.checkTrailer();
-
     }
     public void checkWheelable(WheeledTransport WheeledTransport) {
         System.out.println("Обслуживаем " + WheeledTransport.getModelName());

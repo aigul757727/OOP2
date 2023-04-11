@@ -3,7 +3,6 @@ public class Main {
         Car car = new Car("Car1", 4);
         Car car2 = new Car("Car2", 4);
 
-
         Truck truck = new Truck("truck1", 6);
         Truck truck2 = new Truck("truck2", 8);
 
